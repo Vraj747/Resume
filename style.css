@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pdf-container {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Disable body scrolling */
+  display: flex; /* Flexbox to center the embed */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.pdf-embed {
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  min-width: 100%; /* Ensures no margin on the sides */
+  min-height: 100%; /* Ensures no margin on the top/bottom */
+  border: none;
+}
